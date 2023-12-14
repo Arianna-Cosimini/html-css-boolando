@@ -88,6 +88,9 @@ header .container #cards .cards {
     background-color: #fff;
 }
 
+#cards .cards .icon-card:hover {
+    background-color: red;
+}
 
 
 .cards .hover img{
