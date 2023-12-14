@@ -3,3 +3,91 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.nav-container {
+    display: flex;
+}
+
+nav{
+    background: #ff6900;
+    padding: 30px 0;
+}
+
+
+
+
+nav .nav-container .nav-links{
+    width: 185px;
+    height: 30px;
+    background-color: aqua;
+    border: 1px solid black;
+    
+    /* prova */
+}
+
+nav .nav-container .nav-logo {
+    width: 1000px;
+    height: 30px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    /* prova*/
+}
+
+nav .nav-container .nav-icons{
+    width: 185px;
+    height: 30px;
+    background-color: aqua;
+    border: 1px solid black;
+    /* prova */
+}
+
+header .container .cards{
+    height: 670px;
+    width:460px;
+    background-color: pink;
+    border: 1px solid black;
+    /* prova */
+    
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: #1a1a1a;
+    padding: 30px 0px;
+}
+
+footer .container .footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .footer-cookies{
+    width: 390px;
+    height: 40px;
+    background-color:blueviolet;
+    border: 1px solid black;
+    /* prova */
+}
+
+footer .container .footer-social{
+    width: 141px;
+    height: 50px;
+    background-color: blueviolet;
+    /* prova */
+}
+
